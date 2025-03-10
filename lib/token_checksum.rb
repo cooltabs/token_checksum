@@ -7,10 +7,6 @@ require "zlib"
 require "securerandom"
 require "securecompare"
 
-if ENV.fetch("DEBUG", "false")
-  require "debug"
-end
-
 module TokenChecksum
   REGEX = /([abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]{1,})_([0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]{30})([0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]{6})/
 
