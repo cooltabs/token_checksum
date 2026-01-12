@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "A token generator with an identifiable prefix and a 32-bit checksum suffix."
   spec.homepage = "https://github.com/gjtorikian/token_checksum"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.0", "< 4.0"
+  spec.required_ruby_version = ">= 3.0", "< 5.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
 
